@@ -69,7 +69,7 @@ ahash = { version = "0.7", optional = true }
 
 # parquet support
 #parquet2 = { version = "0.10", optional = true, default_features = false, features = ["stream"] }
-parquet2 = { git = "https://github.com/dantengsky/parquet2", rev = "932699" }
+parquet2 = {  version = "0.10", optional = true, default_features = false, features = ["stream"],  git = "https://github.com/dantengsky/parquet2", rev = "932699" }
 
 
 # avro support
